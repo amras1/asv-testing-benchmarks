@@ -1,0 +1,33 @@
+{
+    "benchmarks.TestSuite.time_fibonacci": {
+        "code": "def time_fibonacci(self):\n    cythonbench.fibonacci()\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TestSuite.time_fibonacci", 
+        "number": 0, 
+        "repeat": 3, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TestSuite.time_loop": {
+        "code": "def time_loop(self):\n    cythonbench.loop()\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TestSuite.time_loop", 
+        "number": 0, 
+        "repeat": 3, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "benchmarks.TestSuite.time_primes": {
+        "code": "def time_primes(self):\n    cythonbench.primes(20)\n", 
+        "goal_time": 2.0, 
+        "name": "benchmarks.TestSuite.time_primes", 
+        "number": 0, 
+        "repeat": 3, 
+        "timeout": 60.0, 
+        "type": "time", 
+        "unit": "seconds"
+    }, 
+    "version": 1
+}
