@@ -69,7 +69,5 @@
     "project": "asv-testing", 
     "project_url": "https://github.com/amras1/asv-testing", 
     "show_commit_url": "#", 
-    "tags": {
-        "testing": 1401032933000
-    }
+    "tags": {}
 }
